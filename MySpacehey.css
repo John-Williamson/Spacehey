@@ -1,0 +1,155 @@
+<ul>
+<img src="https://file.garden/ZwwiEXO4W1VL_fVs/BrownCrtScreen.png"/>
+
+<img src="https://file.garden/ZwwiEXO4W1VL_fVs/Idreaminpixels.gif"/><img src="https://file.garden/ZwwiEXO4W1VL_fVs/Idreaminpixels.gif"/><img src="https://file.garden/ZwwiEXO4W1VL_fVs/Idreaminpixels.gif"/><img src="https://file.garden/ZwwiEXO4W1VL_fVs/Idreaminpixels.gif"/><img src="https://file.garden/ZwwiEXO4W1VL_fVs/Idreaminpixels.gif"/><img src="https://file.garden/ZwwiEXO4W1VL_fVs/Idreaminpixels.gif"/>
+</ul>
+<style>
+
+/* Psuedo-Selectors Reference (.whatever {}): 
+https://hessostrange.neocities.org/HTML%20Group/spacehey-profile-diagram 
+Visual examples of what code does: ttps://developer.mozilla.org/en-US/docs/Web/CSS/ */
+
+
+/* Import Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+</style>
+
+
+
+<style>
+
+/*Background */
+
+body{
+/* url 1, url 2..*/
+background: url(https://file.garden/ZwwiEXO4W1VL_fVs/Roseleft.png), url(https://file.garden/ZwwiEXO4W1VL_fVs/rose-right.png), url(https://file.garden/ZwwiEXO4W1VL_fVs/purplebackground.gif);
+/*attributes of: url 1, url 2..; */
+background-position: left, right, center;
+background-repeat: repeat-y, repeat-y, repeat;
+}
+
+
+
+/*Profile Background*/
+main{
+background-color: rgba(47,35,67,.6);
+border-color: rgba(153, 102, 0,.1);
+border-width: 8px 8px 4px 8px;
+border-style: groove;
+color: #95D9DA;
+text-shadow: 1px 1px 2px pink;
+
+}
+
+
+
+
+
+/* Moves the tv*/
+.profile .blurbs .section img:nth-child(1){
+width: 100%;
+position: relative;
+z-index: 1;
+}
+
+
+/*Blingies*/
+.profile .blurbs .inner .section img:nth-child(n+2){
+
+
+position: absolute;
+z-index: 0;
+margin: auto;
+left: 49%;
+top: 38%;
+
+
+
+}
+
+/*Remove Who I'd like to Meet*/
+.profile .blurbs .inner .section:nth-child(2) {
+display: none;
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Hide Original Profile Picture*/
+.profile-pic > img {
+display: none;
+}
+
+/*Prepare New Gif Profile Picture*/
+.profile-pic:after { 
+background-image: url(https://file.garden/ZwwiEXO4W1VL_fVs/ProfilePicture.gif);
+
+/* Create Block for image */
+display: inline-block;
+content:"";
+
+background-size: cover; 
+width: 160px; 
+height: 160px; 
+box-shadow: none!important;
+}
+
+/*Heading*/
+:is(h1,h2,h3,h4,h5){
+color: pink;
+text-shadow: 1px 1px 2px yellow;
+}
+
+/* Profile name Font */
+h1{
+font-size: 100%;
+font-family: DotGothic16, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+
+/*Left Heading Backgrounds*/
+.profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
+background: linear-gradient(#322649, #D981FE);
+}
+
+/*Left Outer Borders*/
+.profile .contact, .profile .table-section, .profile .url-info{
+/* Style: top , left and right, bottom */
+border-style:  solid groove solid;
+border-color: #650195  #8A76AF #650195 ;
+}
+
+
+/*Right Heading Backgrounds*/
+.profile .blurbs .heading, .profile .friends .heading  {
+background: linear-gradient(#322649, #D981FE);
+}
+
+/*Right Outer Borders*/
+.profile .blurbs .heading, .profile .friends .heading  {
+/* Style: top , left and right, bottom */
+border-style:  solid groove solid;
+border-color: #650195  #8A76AF #650195 ;
+}
+
+
+/*footer*/
+footer{
+background-color: rgba(47,35,67,0.2);
+color: white;
+}
+
+
+
+</style>
